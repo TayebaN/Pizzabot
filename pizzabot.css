@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+/* Create a full-page cover with a background image */
+
+.cover {
+  background-image: url(Whole-wheat-pizza-dough.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  opacity: 90%;
+}
+
+/* Style the content inside the cover */
+
+.content {
+  padding: 25px 0px 45px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 450px;
+  width: 450px;
+  background-repeat: no-repeat;
+  border-radius: 30px 30px 30px 30px;
+  align-items: center;
+  opacity: 100%;
+  box-shadow: 0 12px 19px 0 black, 0 12px 20px 0 black;
+}
+
+img {
+  border-radius: 30px;
+  margin-bottom: 10px;
+  opacity: 100%;
+  box-shadow: 0 20px 29px 0 black, 0 20px 29px 0 black;
+}
+
+h1 {
+  padding: 7px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 12px 19px 0 black, 0 12px 20px 0 black;
+}
+
+h1:hover {
+  background-color: #9dd4db;
+  color: rgb(248, 7, 7);
+}
+
+h2 {
+  padding: 7px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 12px 19px 0 black, 0 12px 20px 0 black;
+}
+
+h2:hover {
+  background-color: #9dd4db;
+  color: rgb(248, 7, 7);
+}
+
+.btn {
+  font-family: "Dancing Script", cursive;
+  font: bolder;
+  border: none;
+  box-shadow: 0 12px 19px 0 black, 0 12px 20px 0 black;
+  padding: 3px 40px;
+  background: #9dd4db;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(151, 112, 28);
+  color: white;
+}
